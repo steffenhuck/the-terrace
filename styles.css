@@ -102,6 +102,8 @@ body {
   font-weight: 600;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+  color: #c8a43a;
+  opacity: 0.85;
 }
 
 .line {
