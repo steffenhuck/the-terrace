@@ -1,0 +1,174 @@
+
+:root {
+  --background: #e9f1fb;
+  --text: #171717;
+  --muted: #4e5a6a;
+  --honey: #c8a43a;
+  --border: rgba(23, 23, 23, 0.08);
+  --content-width: 760px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 23px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.page {
+  width: min(var(--content-width), calc(100vw - 3rem));
+  margin: 0 auto;
+  padding: 5.25rem 0 4.5rem;
+}
+
+.title-block {
+  text-align: center;
+  margin-bottom: 2.75rem;
+}
+
+.title {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2.6rem, 6vw, 4.2rem);
+  font-weight: 600;
+  line-height: 1.06;
+  letter-spacing: 0.01em;
+}
+
+.subtitle {
+  margin: 0.7rem 0 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--honey);
+}
+
+.hero {
+  margin: 0 0 2.7rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+}
+
+.meta-block {
+  text-align: center;
+  margin-bottom: 2.35rem;
+}
+
+.meta-heading {
+  margin: 0 0 0.8rem;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.meta-line {
+  margin: 0.12rem 0;
+}
+
+.play-text {
+  margin-top: 2.2rem;
+}
+
+.speaker {
+  margin: 1.15rem 0 0.08rem;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.line {
+  margin: 0 0 0.15rem 1.45em;
+}
+
+.stage-direction {
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+.signature-block {
+  margin-top: 4.3rem;
+  text-align: center;
+}
+
+.signature {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.42em;
+  text-transform: lowercase;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.signature:hover,
+.signature:focus-visible {
+  color: var(--honey);
+}
+
+a {
+  transition: color 180ms ease;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 20px;
+    line-height: 1.58;
+  }
+
+  .page {
+    width: min(var(--content-width), calc(100vw - 2rem));
+    padding: 3.5rem 0 3.2rem;
+  }
+
+  .title-block {
+    margin-bottom: 2rem;
+  }
+
+  .hero {
+    margin-bottom: 2.1rem;
+  }
+
+  .meta-block {
+    margin-bottom: 2rem;
+  }
+
+  .line {
+    margin-left: 1.25em;
+  }
+
+  .signature-block {
+    margin-top: 3.2rem;
+  }
+
+  .signature {
+    letter-spacing: 0.28em;
+    font-size: 0.88rem;
+  }
+}
