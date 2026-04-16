@@ -54,7 +54,7 @@ body {
 .subtitle {
   margin: 0.7rem 0 0;
   font-family: "Inter", Arial, sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -92,7 +92,7 @@ body {
 }
 
 .cast-block .meta-line {
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .play-text {
