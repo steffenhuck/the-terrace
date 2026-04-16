@@ -91,6 +91,10 @@ body {
   margin: 0.12rem 0;
 }
 
+.cast-block .meta-line {
+  font-size: 0.85rem;
+}
+
 .play-text {
   margin-top: 2.2rem;
 }
